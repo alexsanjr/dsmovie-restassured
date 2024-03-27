@@ -18,7 +18,7 @@ public class MovieControllerRA {
 
 	private String clientUsername, clientPassword, adminUsername, adminPassword;
 	private String clientToken, adminToken, invalidToken;
-	private Long existingMovieId, nonExistingMovieId, dependentMovieId;
+	private Long existingMovieId, nonExistingMovieId;
 
 	private Map<String, Object> postMovieInstance;
 
